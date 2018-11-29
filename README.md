@@ -23,12 +23,10 @@ $ npm start
 | koa-onerror | 错误处理信息 |
 | koa-bodyparser | 获取表单提交的数据 |
 
-## 安全　清单
+## [[译]Node.js安全清单](https://segmentfault.com/a/1190000003860400#articleHeader6)
 
 | Plugin | README |
 | ------ | ------ |
 | ioredis | 对话缓存 |
 | koa-helmet | 安全性相关的HTTP头 |
 | koa-ratelimit | 身份认证——对于暴力破解的保护 |
-
-[[译]Node.js安全清单](https://segmentfault.com/a/1190000003860400#articleHeader6)

@@ -1,0 +1,13 @@
+
+# Editor directories and files
+.idea
+.vscode
+.DS_Store
+
+# Ignore folders
+node_modules/
+
+# Logs
+*.log
+npm-debug.log
+lerna-debug.log
