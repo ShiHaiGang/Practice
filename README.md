@@ -17,8 +17,8 @@ $ npm start
 | ------ | ------ |
 | koa-json | 返回json格式的数据 |
 | koa-views | 视图模板渲染 |
-| koa-logger | 请求日志功能 |
 | koa-static | 加载静态资源 |
+| koa-logger | 请求日志功能 |
 | koa-session | 会话存储 |
 | koa-onerror | 错误处理信息 |
 | koa-bodyparser | 获取表单提交的数据 |
