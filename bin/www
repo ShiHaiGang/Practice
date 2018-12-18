@@ -4,9 +4,10 @@
  * Module dependencies.
  */
 
+var opn = require('opn');
+var http = require('http');
 var app = require('../app');
 var debug = require('debug')('demo:server');
-var http = require('http');
 
 /**
  * Get port from environment and store in Express.
@@ -27,6 +28,7 @@ console.log('\x1B[35m> Starting dev server...\x1B[39m');
  * Listen on provided port, on all network interfaces.
  */
 
+opn(uri);
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
