@@ -11,6 +11,7 @@ brancher:
     - 'master'
 # 初始
 install:
+  - npm install
   - npm install -g codecov
 # 构建
 script:
