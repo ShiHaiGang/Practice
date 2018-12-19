@@ -2,6 +2,7 @@
 >This is just a test（这只是一个测试）
 
 [![Build Status](https://travis-ci.org/ShiHaiGang/Practice.svg?branch=master)](https://travis-ci.org/ShiHaiGang/Practice)
+[![codecov](https://codecov.io/gh/ShiHaiGang/Practice/branch/master/graph/badge.svg)](https://codecov.io/gh/ShiHaiGang/Practice)
 
 ## Install dependencies:
 ```sh
