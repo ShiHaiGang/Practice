@@ -1,14 +1,18 @@
-sudo: false
-os:
-  - linux
-  - osx
+#sudo: false
+#os:
+  #- linux
+  #- osx
+# 默认运行环境
 language: node_js
+# nodejs版本
 node_js:
   - '8'
   - '10'
+# 指定分支，只有指定的分支提交时才会运行脚本
 brancher:
   only:
     - 'dev'
     - 'master'
+# 指定构建或测试脚本
 script:
   - npm run dev
