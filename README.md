@@ -1,5 +1,6 @@
 # Practice（实践）koa-cli
 >This is just a test（这只是一个测试）
+[![Build Status](https://travis-ci.org/ShiHaiGang/Practice.svg?branch=master)](https://travis-ci.org/ShiHaiGang/Practice)
 
 ## Install dependencies:
 ```sh
