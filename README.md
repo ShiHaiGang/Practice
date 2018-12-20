@@ -1,8 +1,19 @@
-# Practice（实践）koa-cli
->This is just a test（这只是一个测试）
+<p align="center">
+  <img alt="" src="./public/images/icon.png">
+</p>
 
-[![Build Status](https://travis-ci.org/ShiHaiGang/Practice.svg?branch=master)](https://travis-ci.org/ShiHaiGang/Practice)
-[![codecov](https://codecov.io/gh/ShiHaiGang/Practice/branch/master/graph/badge.svg)](https://codecov.io/gh/ShiHaiGang/Practice)
+<p align="center">
+  koa-cli
+</p>
+
+<p align="center">
+  This is just a test（这只是一个测试）
+</p>
+
+<p align="center">
+  [![Build Status](https://travis-ci.org/ShiHaiGang/Practice.svg?branch=master)](https://travis-ci.org/ShiHaiGang/Practice)
+  [![codecov](https://codecov.io/gh/ShiHaiGang/Practice/branch/master/graph/badge.svg)](https://codecov.io/gh/ShiHaiGang/Practice)
+</p>
 
 ## Install dependencies:
 ```sh
