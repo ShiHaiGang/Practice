@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  koa-cli
+  Koa-Cli
 </p>
 
 <p align="center">
@@ -14,9 +14,6 @@
   <a href="https://travis-ci.org/ShiHaiGang/Practice"><img alt="Build Status" src="https://travis-ci.org/ShiHaiGang/Practice.svg?branch=master"></a>
   <a href="https://codecov.io/gh/ShiHaiGang/Practice"><img alt="codecov" src="https://codecov.io/gh/ShiHaiGang/Practice/branch/master/graph/badge.svg"></a>
 </p>
-
-[![Build Status](https://travis-ci.org/ShiHaiGang/Practice.svg?branch=master)](https://travis-ci.org/ShiHaiGang/Practice)
-[![codecov](https://codecov.io/gh/ShiHaiGang/Practice/branch/master/graph/badge.svg)](https://codecov.io/gh/ShiHaiGang/Practice)
 
 ## Install dependencies:
 ```sh
