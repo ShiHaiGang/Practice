@@ -9,24 +9,23 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "debug": "^2.6.3",
-    "ioredis": "^4.2.0",
-    "koa": "^2.2.0",
-    "koa-bodyparser": "^3.2.0",
-    "koa-convert": "^1.2.0",
+    "debug": "^4.1.1",
+    "ioredis": "^4.6.2",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
     "koa-helmet": "^4.0.0",
     "koa-json": "^2.0.2",
-    "koa-logger": "^2.0.1",
-    "koa-onerror": "^1.2.1",
-    "koa-ratelimit": "^4.1.2",
-    "koa-router": "^7.1.1",
-    "koa-session": "^5.10.0",
-    "koa-static": "^3.0.0",
-    "koa-views": "^5.2.1",
-    "pug": "^2.0.0-rc.1"
+    "koa-logger": "^3.2.0",
+    "koa-onerror": "^4.1.0",
+    "koa-ratelimit": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.10.1",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.5",
+    "pug": "^2.0.3"
   },
   "devDependencies": {
-    "nodemon": "^1.8.1",
+    "nodemon": "^1.18.10",
     "opn": "^5.4.0"
   }
 }
