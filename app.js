@@ -47,21 +47,21 @@ app.use(users.routes(), users.allowedMethods());
 
 // mongoose
 mongoose.set('debug', true);
-mongoose.connect("mongodb+srv://haigang:shi@201314@cluster0-h1ztu.mongodb.net/test?retryWrites=true", { useNewUrlParser: true })
-  .then(() => {console.log('数据库链接成功')})
-  .catch(err => {console.log(err)})
-// mongoose.connection.on('disconnected', () => {
-//   // 中断从新连接
-//   mongoose.connect();
-// });
-// mongoose.connection.on('error', (err) => {
-//   // 输出一下错误信息
-//   console.error(err);
-// });
-// mongoose.connection.on('open', async () => {
-//   // 处理一些一步操作
-//   console.log('连接上数据库', 'url');
-// });
+const uri = "mongodb://localhost:27017/api";
+mongoose.connect(uri, { useNewUrlParser: true });
+mongoose.connection.on('disconnected', () => {
+  // 中断从新连接
+  mongoose.connect();
+});
+mongoose.connection.on('error', (err) => {
+  // 输出一下错误信息
+  console.error(err);
+});
+mongoose.connection.on('open', async () => {
+  // 处理一些一步操作
+  console.log('\x1B[36m> MongoDB Server OK... \x1B[39m');
+  console.log('\x1B[46m> Listening at '+ uri +'\x1B[49m');
+});
 
 // error-handling
 app.on('error', (err, ctx) => {
