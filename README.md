@@ -38,6 +38,9 @@ $ npm start
 | [koa-onerror](https://github.com/koajs/onerror) | 错误处理信息 |
 | [koa-bodyparser](https://github.com/koajs/body-parsers) | 获取表单提交的数据 |
 | cookies已经koa内置了，无需处理 |  |
+| [Lodash](https://www.lodashjs.com/) | 是一个一致性、模块化、高性能的 JavaScript 实用工具库。 |
+| [Gravatar](https://github.com/emerleite/node-gravatar#readme) | 全球公认的头像 |
+| [koa-generator](https://github.com/17koa/koa-generator) | Koa'1.x和2.x的应用程序生成器 |
 
 ## [[译]Node.js安全清单](https://segmentfault.com/a/1190000003860400#articleHeader6)
 
